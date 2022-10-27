@@ -62,6 +62,10 @@ h1 {
     margin-left: 10px;
 }
 
+.btn:focus {
+    outline: 0;
+}
+
 /*Any screens that are 800px and smaller*/
 @media(max-width: 800px) {
     .screen, .controls {
